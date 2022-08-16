@@ -1,0 +1,206 @@
+.enterbox1{
+    height: 100px;
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 200px;
+    font-size: 50px;
+    color: #c300ff;
+
+}
+
+.enterbox2, .enterbox3{
+    height: 100px;
+    width: 170px;
+    margin: 0px auto;
+    /* background-color: rgb(21, 255, 0); */
+}
+
+.enterbox2 input, .enterbox3 input{
+    width: 172.5px;
+    height: 24px;
+}
+
+.enterbox3{
+height: 50px;
+margin-top: 10px;
+}
+
+.enterbox2{
+    padding-top: 20px;
+    height: 50px;
+}
+
+.Login{
+    font-size: 20px;
+    color: orangered;
+}
+
+.button{
+    padding-top: 18px;
+    height: 38px;
+    width: 60px;
+    margin: 0px auto;
+}
+
+.button2{
+    width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+.button4{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+
+.Name{
+    font-size: 20px;
+    color: White;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+}
+
+.Name :hover{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    right: 400px;
+}
+
+input:focus{
+    outline:2px solid red;
+    background-color: gold;
+}
+
+#password:hover{
+    outline:2px solid red;
+}
+
+#name:hover{
+    outline:2px solid red;
+}
+
+#button:hover{
+    transform: scale(1.1);
+    background-color: lightgreen;
+}
+
+.button4:hover{
+    outline: 2px solid red;
+    transform: scale(1.05);
+}
+
+.toolbox{
+    height: 60px;
+    width: 60px;
+    background-image: url(img/toolbox.png);
+    border-radius: 50px;
+    position: absolute;
+    right: 180px;
+    bottom: 15px;
+}
+
+/* .toolbox:hover{
+    transform: rotate(180deg);
+    transition: transform linear 0.3s;
+} */
+
+#timer{
+    display:none;
+    font-size:100px;
+    color:greenyellow;
+    position:absolute;
+    top: 360px;
+    left: 370px;
+
+}
+
+.toolbox2{
+    /* width: 292px; */
+    /* height: 680px; */
+    width: 234px;
+    height: 545px;
+    background-image: url(img/Toolbox3.png);
+    background-repeat: no-repeat;
+    /* position:absolute;
+    right: 145px;
+    bottom: 83px; */
+    display:none;
+    /* background-color:black */
+}
+
+.toolbox3{
+    /* width: 292px; */
+    /* height: 680px; */
+    width: 234px;
+    height: 550px;
+    position:absolute;
+    right: 145px;
+    bottom: 73px;
+    display:none;
+    /* background-color:red */
+}
+
+.stuff{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    /* background-color:red; */
+    position:relative;
+    top: 8px;
+    left: 10px;
+    margin-top: 8px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.stuff:hover{
+    transform: scale(1.1);
+}
+
+.TBI{
+    border-radius: 50%;
+}
+
+/* .stuffRight{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color:red;
+    position:relative;
+    top: 13px;
+    left: 40px;
+    margin-top: 13px;
+} */
+
+.reg{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-color: #fff;
+    top: 30px;
+    left: 30px;
+    display: none;
+}
+
+.reg2{
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+}
+
+#password-reg:hover{
+    outline:2px solid red;
+}
+
+#name-reg:hover{
+    outline:2px solid red;
+}
+
+#button-reg:hover{
+    transform: scale(1.1);
+    background-color: lightgreen;
+}
